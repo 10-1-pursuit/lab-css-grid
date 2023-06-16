@@ -1,10 +1,9 @@
 /* Write your CSS here! */
-
 .primary-content {
   display: grid;
   grid-template-columns: 25% 80%;
-}
 
+}
 .menu {
   display: flex;
   flex-direction: row;
@@ -15,7 +14,6 @@
   display: grid;
   grid-template-columns: 20% 80%;
 }
-
 /* Do not change the CSS below. */
 
 .header {

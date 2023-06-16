@@ -1,21 +1,26 @@
 /* Write your CSS here! */
-
+*, body {
+  padding: 0;
+  margin: 0;
+}
 .primary-content {
   display: grid;
-  grid-template-columns: 25% 80%;
+  grid-template-columns: 20% 80%;
+  /* margin-top: 10px; */
 }
-
-.menu {
+menu {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 0;
 }
-
+menu ul {
+  align-self: center;
+}
 .header {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: repeat(2, );
 }
-
 /* Do not change the CSS below. */
 
 .header {
