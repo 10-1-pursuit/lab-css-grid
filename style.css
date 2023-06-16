@@ -1,5 +1,44 @@
 /* Write your CSS here! */
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* .main p {
+  text-align:  ;
+} */
+
+.header {
+  display: grid;
+
+  /* justify-content: space-between; */
+  grid-template-columns: repeat(2,23%);
+}
+
+.menu ul {
+  display: flex;
+  /* padding: 20px; */
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.footer {
+  height: 26px
+}
+/* .sidebar {
+  display: grid ;
+  position: absolute;
+  height: 99%;
+width: 200px;
+position: absolute;
+left: 0;
+
+.main { 
+  display: flex;
+  width: 400px;
+  height: 200px;
+  justify-content: flex-end
+}
 /* Do not change the CSS below. */
 
 .header {
