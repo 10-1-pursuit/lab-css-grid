@@ -1,4 +1,18 @@
 /* Write your CSS here! */
+.primary-content{
+  display:grid;
+  grid-template-columns: 25% 75%
+}
+.header{
+  display:grid;
+  grid-template-columns: repeat(2, 25%);
+}
+.menu ul{
+  margin-bottom: 0;
+}
+.footer{
+  height: 26;
+}
 
 /* Do not change the CSS below. */
 
@@ -14,6 +28,8 @@
 
 .menu ul {
   padding: 0;
+  
+  
 }
 
 .menu ul li {
