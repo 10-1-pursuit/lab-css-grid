@@ -1,4 +1,21 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-template-columns: 25% 80%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 27%);
+}
+
+.menu ul {
+  margin-bottom: 0;
+}
+
+.footer {
+  height: 27px;
+}
 
 /* Do not change the CSS below. */
 
