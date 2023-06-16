@@ -1,27 +1,11 @@
 /* Write your CSS here! */
 
-.primary-content {
-  display: grid;
-  grid-template-columns: 25% 80%;
-}
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.header {
-  display: grid;
-  grid-template-columns: 20% 80%;
-}
-
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
 }
-
+.p
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
