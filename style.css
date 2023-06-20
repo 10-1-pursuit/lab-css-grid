@@ -1,15 +1,79 @@
 /* Write your CSS here! */
 
+ 
+.logo{grid-area: header;}
+.menu{grid-area: header;
+}
+ .menu a{text-align: left;}
+  .header{
+    grid-area: header;
+    /* display: grid; */
+    
+  }
+  /* .body{display: grid;} */
+   .sidebar{grid-area: sidebar;}
+
+  .main{grid-area: main;}
+
+   .sidebar{
+    grid-area: sidebar;
+     grid-column-start:1;
+    box-sizing: content-box; 
+    
+    width: 350px;
+  }
+  .main {
+   
+grid-area: main;
+/* grid-column-start: 2; */
+
+  } 
+  .footer{
+    grid-area: footer;
+   /* width: 1208px;
+   text-align: center; */
+  }
+  
+    .container {
+      display: grid;
+  
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      height: 100vh;
+      justify-content: stretch;
+      grid-template-areas:
+        "header header header header"
+        "sidebar main main main "
+        "footer footer footer footer";
+  
+    }
+.menu{text-align: center;}
+
+.logo{position:relative;left :-225px;top:2px
+}
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+  border: 2px solid;
+   display: grid; 
+  
+width: auto;
+
+
+  grid: row start 1px; ;
+  box-sizing: border-box;
+  height: 75px;
+
+  
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  
 }
 
 .menu ul {
@@ -22,8 +86,10 @@
 }
 
 .menu a {
-  color: white;
+  color: rgb(246, 236, 236);
   text-decoration: none;
+  text-align:right;
+  display: grid;
 }
 
 .sidebar {
@@ -43,3 +109,5 @@
   padding: 10px;
   text-align: center;
 }
+
+a{color: #4242ea};
