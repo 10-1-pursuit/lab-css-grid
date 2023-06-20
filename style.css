@@ -1,5 +1,24 @@
 /* Write your CSS here! */
 
+/* * {
+  border: 1px solid darkorange;
+} */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+ }
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 /* Do not change the CSS below. */
 
 .header {
