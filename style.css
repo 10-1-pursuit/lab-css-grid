@@ -1,5 +1,22 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
 
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 25%);
+}
+
+.menu ul {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.footer{
+  height: 25px ;
+}
 /* Do not change the CSS below. */
 
 .header {
