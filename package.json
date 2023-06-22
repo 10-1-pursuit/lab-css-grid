@@ -4,7 +4,8 @@
   "description": "In this lab, you will use CSS Grid to structure a webpage. If you're stuck, you may want to visit the following website which can be of help.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=3000"
   },
   "keywords": [],
   "author": "",
