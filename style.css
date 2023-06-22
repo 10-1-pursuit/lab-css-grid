@@ -2,14 +2,15 @@
 
 /* Do not change the CSS below. */
 
-.header {
-  background: #4242ea;
-}
-
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  grid-area: logo;
+}
+
+.menu {
+  grid-area: menu;
 }
 
 .menu ul {
@@ -24,22 +25,56 @@
 .menu a {
   color: white;
   text-decoration: none;
+  grid-area: menu;
 }
 
 .sidebar {
   background: #2d2d2d;
   color: white;
   text-align: center;
+  grid-area: sidebar;
 }
 
 .main {
   background: #ececec;
   height: 750px;
   text-align: center;
+  grid-area: main;
 }
 
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+  grid-area: footer;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 325px auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "primary-content primary-content"
+    "footer footer";
+}
+
+.header {
+  background: #4242ea;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 325px auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "logo menu";
+}
+
+.primary-content {
+  grid-area: primary-content;
+  display: grid;
+  grid-template-columns: 325px auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "sidebar main";
+
 }
