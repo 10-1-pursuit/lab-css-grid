@@ -1,5 +1,29 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: auto 5fr;
+  align-items: center ;
+}
 
+.menu .menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, center);
+  justify-content: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0px;
+}
+
+/* Rest of your existing CSS styles */
+
+.item {
+display:flex;
+align-items: center;
+justify-content: center;
+}
 /* Do not change the CSS below. */
 
 .header {
@@ -24,6 +48,7 @@
 .menu a {
   color: white;
   text-decoration: none;
+
 }
 
 .sidebar {
