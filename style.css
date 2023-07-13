@@ -1,4 +1,12 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+#pursuit-home-page {
+  padding-left: 300px;
+}
 
 /* Do not change the CSS below. */
 
