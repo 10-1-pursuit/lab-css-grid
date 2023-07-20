@@ -1,4 +1,19 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.menu ul{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  font-family: serif;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 200px 4fr;
+}
 
 /* Do not change the CSS below. */
 
